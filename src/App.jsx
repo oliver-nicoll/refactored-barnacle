@@ -1,7 +1,22 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+
+import Home from './pages/Home/Home'
+import About from './pages/about/About'
+import NotFound from './pages/NotFound/NotFound'
+import Navbar from './components/nav/Nav'
+import Footer from './components/footer/Footer'
+
 
 const App = () => {
   return (
-    <div>App</div>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route index element={<Home/>} />
+        <Route path='*' element={<NotFound />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   )
 }
 
