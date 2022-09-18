@@ -1,8 +1,8 @@
-import {useState} from 'react';
-import {Link, NavLink} from 'react-router-dom'
-import Logo from '../../assets/5.jpg'
-import {GoThreeBars} from 'react-icons/go'
-import {MdOutlineClose} from 'react-icons/md'
+// import {useState} from 'react';
+// import {Link, NavLink} from 'react-router-dom'
+// import Logo from '../../assets/5.jpg'
+// import {GoThreeBars} from 'react-icons/go'
+// import {MdOutlineClose} from 'react-icons/md'
 import './Nav.css';
 
 const Nav = () => {
