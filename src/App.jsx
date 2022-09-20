@@ -1,22 +1,21 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-// import Header from "./components/header/Header"
-import Home from './pages/Home/Home'
+// import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Header from './components/header/Header'
 // import About from './pages/about/About'
-import NotFound from './pages/NotFound/NotFound'
-import Navbar from './components/nav/Nav'
-import Footer from './components/footer/Footer'
+// import Experience from './components/experience/Experience'
+// import NotFound from './pages/NotFound/NotFound'
+// import Services from './components/services/Services'
+// import Portfolio from './components/portfolio/Portfolio'
+// import Testimonials from './components/testimonials/Testimonials'
+// import Contact from './pages/contact/Contact'
+// import Footer from './components/footer/Footer'
+// import Nav from "./components/nav/Nav"
 
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route index element={<Home/>} />
-        <Route path='*' element={<NotFound />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+   <>
+      <Header/>
+   </> 
   )
 }
 
