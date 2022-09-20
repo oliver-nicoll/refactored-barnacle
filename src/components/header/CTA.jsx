@@ -1,22 +1,12 @@
-import axios from 'axios'
-import fileDownload from 'js-file-download'
+import React from 'react'
 import CV from '../../assets/cv.pdf'
-
-const CTA = (url, filename) => {
-
-  axios.get(url, {
-    responseType: 'blob',
-  }).then ((res) => {
-    fileDownload(res.data, filename)
-  })
-
+const CTA = () => {
   return (
-    <div className="cta">
-        <button onClick={() => {this.CTA('http://localhost:3000', {CV})}}>Download</button>
-        {/* <a href={CV} download className='btn'>Download CV</a> */}
-        <a href='#contact' className='btn btn-primary'>Let's Talk!</a>
+    <div className='cta'>
+        <a href={CV} download className='btn'>Download Resume</a>
+        <a href="#contact" className='btn btn-primary'>Let's Talk</a>
     </div>
   )
 }
 
-export default CTA;
+export default CTA
