@@ -66,38 +66,23 @@ header {
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
 
 @media screen and (max-width: 1024px) {
-    .container {
-      width: var(--container-width-md);
+    header {
+      height: 68vh;
     }
   
-    section {
-      margin-top: 6rem;
-    }
   }
   
-  /* ========== MEDIA QUERIES (SMALL DEVICES) ==========
+  /* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
   
   @media screen and (max-width: 600px) {
-    .container {
-      width: var(--container-width-sm);
+    header {
+      height: 100vh;
     }
   
-    section > h2 {
-      margin-bottom: 2rem;
+    .header__socials, .scroll__down {
+      display: none;
     }
   }
   
-  /* Media Queries (Notebooks) */
+  /* ===============Media Queries (Notebooks) ================ */
   
-/*   
-  @media screen and (max-width: 1300px){
-    .container {
-      width: var(--container-width-lg);
-    }
-    section {
-      height:auto;
-      margin-top: .5rem;
-      padding-top: .5rem;
-    }
-  }
- */
