@@ -37,7 +37,8 @@ const About = () => {
               <small>80+ Completed Projects</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum molestias repudiandae nostrum, est debitis dolorum nam officiis voluptas, deserunt, ipsum culpa dolorem minus mollitia nulla alias. Eveniet laboriosam sapiente tenetur!</p>
+          <p>Hi there! My name is Nicoll Oliver and I am an ALL boy momma, wife to my big idea entrepreneur  & Jesus lover. In my professional life, I love to design, develop new tech, draft & all around dreamer.
+          From the joys and challenges of raising boys to the insights and inspiration I find in my faith and career, I am excited to share my experiences and connect with others who share my passions. I can't wait to connect with you!</p>
           <a href="#contact" className='btn'>Let's Talk</a>
         </div>
       </div>

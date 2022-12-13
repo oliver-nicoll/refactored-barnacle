@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <footer>
       <a href="#" className='footer_logo'>
-      <img src={logo} alt="Nicoll Logo" />
+      <img src={logo} height="150px" width="150px" alt="Nicoll Logo" />
       </a>
       
 
