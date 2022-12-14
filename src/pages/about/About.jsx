@@ -29,12 +29,12 @@ const About = () => {
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>100+ Clients</small>
+              <small>Reaching New Clients</small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed Projects</small>
+              <small>50+ Completed Projects</small>
             </article>
           </div>
           <p>Hi there! My name is Nicoll Oliver and I am an ALL boy momma, wife to my big idea entrepreneur  & Jesus lover. In my professional life, I love to design, develop new tech, draft & all around dreamer.
