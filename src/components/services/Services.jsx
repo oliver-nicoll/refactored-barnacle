@@ -17,35 +17,19 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Constantly evolving.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Ability to juggle multiple projects and deadlines.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Logos, Website Designs, Social Media Content</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+              <p>Experienced in Kitchen and Bath design</p>
             </li>
           </ul>
         </article>
@@ -60,23 +44,27 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Excellent attention to detail</p>
+              <p>Excellent attention to detail.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Strong understanding of CAD software and ability to use it effectively</p>
+              <p>Use of CAD software and ability to use it effectively.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Problem-solving abilities</p>
+              <p>Problem-solving abilities.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Flexibility</p>
+              <p>Flexibility.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Willingnes to learn and develop new skills</p>
+              <p>Estimation and management of projects.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Willingnes to learn and develop new skills.</p>
             </li>
           </ul>
         </article>
@@ -122,7 +110,7 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Work as part of a team, able to work well with others and contribute to a collaborative creative process.</p>
+              <p>Contributes to a collaborative creative process.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
@@ -130,23 +118,15 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Clearly and effectively communicates ideas to audience.</p>
+              <p>Clearly and effectively communicates.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Constantly evolving. Meets the need to be able to adapt to new technologies, platforms, and trends.</p>
+              <p>Self-motivated. </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Ability to juggle multiple projects and deadlines, so they need to be able to stay organized and manage time effectively.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Self-motivated to continue creating and improving my work. </p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Love for what I do, and a strong desire to create content that resonates with my audience. </p>
+              <p>Passion for projects.</p>
             </li>
           </ul>
         </article>

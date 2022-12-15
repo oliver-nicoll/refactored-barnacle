@@ -1,7 +1,6 @@
 // import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Header from './components/header/Header'
 import Nav from "./components/nav/Nav"
-
 import About from './pages/about/About'
 import Experience from './components/experience/Experience'
 // import NotFound from './pages/NotFound/NotFound'
@@ -21,7 +20,7 @@ const App = () => {
       <Experience/>
       <Services/>
       <Portfolio/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
       <Contact/>
       <Footer/>
    </> 

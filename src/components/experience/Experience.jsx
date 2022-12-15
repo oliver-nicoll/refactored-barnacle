@@ -102,6 +102,61 @@ const Experience = () => {
               </article>
           </div>     
         </div>
+
+
+
+        <div className="experience__backend">
+          <h3>Drafting & Design Skills </h3>
+          <div className="experience__content">
+            <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>AutoCad</h4>
+                  <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>2020 - Kitchen & Bath Design</h4>
+                  <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>Estimator</h4>
+                  <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>Adobe Illustrator</h4>
+                  <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>Microsoft Office</h4>
+                  <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+
+              <article className='experience__details'>
+                <BsPatchCheckFill className='experience__details-icon'/>
+                <div>
+                  <h4>Canva</h4>
+                  <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+          </div>     
+        </div>
       </div>
     </section >
   )
