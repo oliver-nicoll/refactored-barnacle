@@ -2,6 +2,8 @@ import React from 'react';
 import IMG1 from '../../assets/project_1.png'
 import IMG2 from '../../assets/project_2.png'
 import IMG3 from '../../assets/project_3.png'
+import IMG4 from '../../assets/project_4.png'
+
 import './Portfolio.css';
 
 const data = [
@@ -25,7 +27,15 @@ const data = [
     title: 'Investor',
     github: 'https://github.com/oliver-nicoll/Sinatra-Investor_Property_Tracker.git',
     demo: 'https://www.youtube.com/watch?v=FkUdx7uedaI'
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'www.nicolloliver.com',
+    github: 'https://github.com/oliver-nicoll/refactored-barnacle.git',
+    demo: 'https://youtu.be/D22p6lNW3_Q'
   }
+
 ]
 
 const Portfolio = () => {
