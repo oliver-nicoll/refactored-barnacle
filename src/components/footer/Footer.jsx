@@ -27,13 +27,13 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="http://facebook.com/nicolldon"><FaFacebookF/></a>
-        <a href="http://instagram.com/nicoll.oliver"><FiInstagram/></a>
-        <a href="https://github.com/oliver-nicoll"><FiGithub/></a>
-        <a href="http://linkedin.com/in/nicoll-oliver-975444204"><FaLinkedin/></a>
-        <a href="http://twitter.com/designer7417"><FiTwitter/></a>
-        <a href="http://youtube.com/channel/UCjlI2-qd8ogl-HqzMna_RnQ"><FiYoutube/></a>
-        <a href="http://tiktok.com/@mommaoliver06?lang=en"><FaTiktok/></a>
+        <a href="http://facebook.com/nicolldon" target="_blank"><FaFacebookF/></a>
+        <a href="http://instagram.com/nicoll.oliver" target="_blank"><FiInstagram/></a>
+        <a href="https://github.com/oliver-nicoll" target="_blank"><FiGithub/></a>
+        <a href="http://linkedin.com/in/nicoll-oliver-975444204" target="_blank"><FaLinkedin/></a>
+        <a href="http://twitter.com/designer7417" target="_blank"><FiTwitter/></a>
+        <a href="http://youtube.com/channel/UCjlI2-qd8ogl-HqzMna_RnQ" target="_blank"><FiYoutube/></a>
+        <a href="http://tiktok.com/@mommaoliver06?lang=en" target="_blank"><FaTiktok/></a>
       </div>
 
       <div className="footer__copyright">
