@@ -6,7 +6,7 @@ import Experience from './components/experience/Experience'
 // import NotFound from './pages/NotFound/NotFound'
 import Services from './components/services/Services'
 import Portfolio from './components/portfolio/Portfolio'
-// import Testimonials from './components/testimonials/Testimonials'
+import Pictures from './components/testimonials/Testimonials'
 import Contact from './pages/contact/Contact'
 import Footer from './components/footer/Footer'
 
@@ -20,7 +20,7 @@ const App = () => {
       <Experience/>
       <Services/>
       <Portfolio/>
-      {/* <Testimonials/> */}
+      <Pictures/>
       <Contact/>
       <Footer/>
    </> 

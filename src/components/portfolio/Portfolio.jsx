@@ -4,6 +4,8 @@ import IMG2 from '../../assets/project_2.png'
 import IMG3 from '../../assets/project_3.png'
 import IMG4 from '../../assets/project_4.png'
 
+
+
 import './Portfolio.css';
 
 const data = [
@@ -39,6 +41,7 @@ const data = [
 ]
 
 const Portfolio = () => {
+
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
