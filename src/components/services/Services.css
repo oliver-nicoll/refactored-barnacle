@@ -60,6 +60,10 @@
         gap: 2rem;
     }
 
+    .services__container .service__list-icon {
+        font-size: 1em;
+    }
+
     .service {
         height: auto;
     }
@@ -72,4 +76,8 @@
         grid-template-columns: 1fr;
         gap: 1.5rem;
      }
+
+     .services__container .service__list-icon {
+        font-size: 1em;
+    }
    }

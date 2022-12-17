@@ -119,7 +119,7 @@ const Experience = () => {
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon'/>
                 <div>
-                  <h4>2020 - Kitchen & Bath Design</h4>
+                  <h4>2020</h4>
                   <small className='text-light'>Experienced</small>
                 </div>
               </article>

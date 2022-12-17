@@ -36,8 +36,12 @@
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
 
 @media screen and (max-width: 1024px) {
-    .container.testimonials__container {
-        width: 60%;
+    .container .testimonials__container {
+        width: auto;
+    }
+    .image_portfolio img {
+        width: 100%;
+        background-position: center;
     }
  }
     
@@ -47,8 +51,8 @@
    .container.testimonials__container {
     width: var(--container-width-sm)
    }
-
-   .client__review {
-    width: var(--container-width-sm);
-   }
+   .image_portfolio img {
+    width: 100%;
+    background-position: center;
+}
  }

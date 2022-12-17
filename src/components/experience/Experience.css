@@ -53,8 +53,16 @@
         margin: 0 auto;
     }
 
+    .experience__content > article {
+        font-size: .75em;
+    }
+
+    .experience__content .experience__details-icon {
+        font-size: 1em;
+    }
+
     .experience__content {
-        padding: 1rem;
+        padding: .75rem;
     }
    }
    
@@ -68,5 +76,13 @@
     .experience__container > div {
         width: 100%;
         padding: 2rem 1rem;
+    }
+
+    .experience__content > article {
+        font-size: .75em;
+    }
+
+    .experience__content .experience__details-icon {
+        font-size: 1em;
     }
    }
