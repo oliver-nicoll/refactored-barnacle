@@ -9,6 +9,7 @@ import Portfolio from './components/portfolio/Portfolio'
 import Pictures from './components/testimonials/Testimonials'
 import Contact from './pages/contact/Contact'
 import Footer from './components/footer/Footer'
+import Link from './pages/Links/link'
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
       <Services/>
       <Portfolio/>
       <Pictures/>
+      <Link/>
       <Contact/>
       <Footer/>
    </> 
