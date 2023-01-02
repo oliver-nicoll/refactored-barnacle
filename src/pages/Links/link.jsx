@@ -51,7 +51,7 @@ const data = [
 const link = () => {
 
   return (
-    <section id='link'>
+    <section id='link' className='link_section'>
       <h5>Products I</h5>
       <h2>Recommend</h2>
 
@@ -63,10 +63,13 @@ const link = () => {
             <div className="link__item-image">
               <img src={image} alt={title} />
             </div>
-            <h3>{title}</h3>
-            <div className="link__item-cta">
-              <a href={link_name} className='btn' target="_blank">Get More Info!</a>
+            <div className="content__link">
+              <h3>{title}</h3>
+              <div className="link__item-cta">
+                <a href={link_name} className='btn link_btn' target="_blank">Get More Info!</a>
+              </div>
             </div>
+            
           </article>
           )
         })
@@ -78,3 +81,4 @@ const link = () => {
 }
 
 export default link
+
