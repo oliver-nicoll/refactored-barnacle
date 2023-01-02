@@ -60,7 +60,7 @@ const data = [
   {
     id: 8,
     image: IMG8,
-    title: "Lulumon Legging Dupe",
+    title: "Lululemon Legging Dupe",
     link_name: "https://amzn.to/3CiXw94"
   },
   {
