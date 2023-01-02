@@ -6,6 +6,12 @@ import IMG3 from '../../assets/recommend/Stroller.png'
 import IMG4 from '../../assets/recommend/hichair.png'
 import IMG5 from '../../assets/recommend/pouches.png'
 import IMG6 from '../../assets/recommend/swing.png'
+import IMG7 from '../../assets/recommend/book.png'
+import IMG8 from '../../assets/recommend/pants.png'
+import IMG9 from '../../assets/recommend/tent.png'
+
+
+
 
 
 const data = [
@@ -45,6 +51,24 @@ const data = [
     title: 'Mamaroo Swing',
     link_name: 'https://amzn.to/3uXcttf'
   },
+  {
+    id: 7,
+    image: IMG7,
+    title: 'Seeing Beautiful Again - book',
+    link_name: 'https://amzn.to/3i0jEhD'
+  },
+  {
+    id: 8,
+    image: IMG8,
+    title: "Lulumon Legging Dupe",
+    link_name: "https://amzn.to/3CiXw94"
+  },
+  {
+    id: 9,
+    image: IMG9,
+    title: "Must Have Playpen tent",
+    link_name: "https://amzn.to/3jLLsH3"
+  }
 
 ]
 
@@ -69,7 +93,6 @@ const link = () => {
                 <a href={link_name} className='btn link_btn' target="_blank">Get More Info!</a>
               </div>
             </div>
-            
           </article>
           )
         })
