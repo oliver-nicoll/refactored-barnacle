@@ -9,6 +9,8 @@ import {BsWhatsapp} from 'react-icons/bs'
 
 const Contact = () => {
 
+
+ 
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -20,7 +22,10 @@ const Contact = () => {
       }, (error) => {
           console.log(error.text);
       });
+
+      alert('Email Sent!')
   };
+
 
   return (
     <section id='contact'>
