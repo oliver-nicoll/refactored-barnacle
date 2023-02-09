@@ -16,7 +16,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_zzypm7r', 'template_fbtp4hb', form.current, '5lBbFr7gWtSlVQ2VI')
+    emailjs.sendForm(`${process.env.REACT_APP_EMAILJS_SERVICE_ID}`, `${process.env.REACT_APP_EMAILJS_TEMPLATE_ID}`, form.current, `${process.env.REACT_APP_EMAILJS_USER_ID}`)
       .then((result) => {
           console.log(result.text);
       }, (error) => {
