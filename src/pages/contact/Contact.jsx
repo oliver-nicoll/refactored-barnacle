@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css';
 import {MdOutlineEmail} from 'react-icons/md'
@@ -9,6 +9,9 @@ import {BsWhatsapp} from 'react-icons/bs'
 
 const Contact = () => {
 
+  const [fullName, setFullName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
  
   const form = useRef();
@@ -23,6 +26,9 @@ const Contact = () => {
           console.log(error.text);
       });
 
+      setFullName('')
+      setEmail('')
+      setMessage('')
       alert('Email Sent!')
   };
 
@@ -54,9 +60,9 @@ const Contact = () => {
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail} className='contact_form'>
-          <input type="text" name='name' placeholder='Your Full Name' required />
-          <input type="email" name='email' placeholder='Your Email' required />
-          <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
+          <input type="text" value={fullName} name='name' placeholder='Your Full Name' onChange={e => setFullName(e.target.value)} required />
+          <input type="email" value={email} name='email' placeholder='Your Email' onChange={e => setEmail(e.target.value)} required />
+          <textarea name="message" value={message} rows="7" placeholder='Your Message' onChange={e => setMessage(e.target.value)} required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
       </div>
